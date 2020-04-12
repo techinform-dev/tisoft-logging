@@ -1,4 +1,6 @@
 require "tisoft_logging/version"
+require 'act-fluent-logger-rails'
+require 'lograge'
 
 module TisoftLogging
   class Error < StandardError; end

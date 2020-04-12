@@ -18,7 +18,7 @@ module TisoftLogging
       {
           ip: controller.request.remote_ip,
           user_agent: controller.request.user_agent,
-          user_id: controller.current_user&.id
+          user_id: controller.send(user_method)&.id
       }
     end
     config.lograge.custom_options = lambda do |event|

@@ -2,7 +2,8 @@ require "tisoft_logging/version"
 
 module TisoftLogging
   class Error < StandardError; end
-  def setup(config:, user_method: :current_user)
+
+  def self.setup(config:, user_method: :current_user)
     config.log_level = :info
     config.logger = ActFluentLoggerRails::Logger.
         new(settings: {

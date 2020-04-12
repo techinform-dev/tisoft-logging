@@ -26,7 +26,7 @@ On production environment (config/environments/production.rb) add:
 ```ruby
 My::Application.configure do
   # Your configuration
-  TisoftLogging.setup(config: config, user_method: :current_user)
+  TisoftLogging.setup(config: config, user_method: :current_user) if defined?(TisoftLogging)
 end
 ```
 

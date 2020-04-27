@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "tisoft_logging/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "tisoft_logging"
+  spec.name          = "tisoft-logging"
   spec.version       = TisoftLogging::VERSION
   spec.authors       = ["Alexey Chernikov"]
   spec.email         = ["alexey@chernikov.online"]
@@ -16,11 +16,11 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "https://techinform.dev"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/techinform-dev/tisoft_logging"
-    spec.metadata["changelog_uri"] = "https://github.com/techinform-dev/tisoft_logging/CHANGELOG.md"
+    spec.metadata["source_code_uri"] = "https://github.com/techinform-dev/tisoft-logging"
+    spec.metadata["changelog_uri"] = "https://github.com/techinform-dev/tisoft-logging/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

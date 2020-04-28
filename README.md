@@ -30,6 +30,13 @@ My::Application.configure do
 end
 ```
 
+## Options
+
+* config (required) - pass your Rails configuration
+* user_method (required) - controller method to get user in application
+* fluentd_enabled (optional) - enable sending logs to fluentd, default is true
+* host (optional) - host to send fluentd logs, default is 127.0.0.1
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

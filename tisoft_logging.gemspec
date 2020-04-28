@@ -9,8 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alexey Chernikov"]
   spec.email         = ["alexey@chernikov.online"]
 
+  spec.licenses    = ['MIT']
   spec.summary       = %q{Configurate logging for Techinform Soft applications}
-  spec.description   = %q{Configurate logging for Techinform Soft applications}
+  spec.description   = %q{Auto configure logging for Techinform Soft applications}
   spec.homepage      = "https://techinform.dev"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

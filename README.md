@@ -32,10 +32,15 @@ end
 
 ## Options
 
-* config (required) - pass your Rails configuration
-* user_method (required) - controller method to get user in application
-* fluentd_enabled (optional) - enable sending logs to fluentd, default is true
-* host (optional) - host to send fluentd logs, default is 127.0.0.1
+Required:
+
+* config - pass your Rails configuration
+* user_method - controller method to get user in application
+
+Optional:
+
+* fluentd_enabled - enable sending logs to fluentd, default is true
+* host  - host to send fluentd logs, default is 127.0.0.1
 
 ## Development
 

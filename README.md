@@ -39,7 +39,7 @@ Required:
 
 Optional:
 
-* fluentd_enabled - enable sending logs to fluentd, default is true
+* fluentd_enable - enable sending logs to fluentd, default is true
 * host  - host to send fluentd logs, default is 127.0.0.1
 
 ## Development
